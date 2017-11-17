@@ -1,0 +1,29 @@
+header {
+  padding: 154px 0 100px;
+}
+
+@media (min-width: 992px) {
+  header {
+    padding: 156px 0 100px;
+  }
+}
+section {
+  padding: 150px 0;
+}
+.instituto{
+	height: 200px;
+	background-color: #137503;
+}
+#logo{
+	margin-top: -85px;
+}
+div.dataTables_filter{text-align:right;}
+th{
+	text-align: center;
+}
+td{
+	text-align: center;
+}
+.table-striped > tbody > tr:nth-child(2n+1){
+   background-color: #98FB98;
+}

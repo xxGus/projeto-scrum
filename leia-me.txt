@@ -1,0 +1,4 @@
+Crie em seu SGBD uma base chamada ifsp_portaria, depois importe o arquivo ifsp_portaria.sql para a base criada.
+Este arquivo contem um DUMP com as tabelas e alguns dados para teste, mas lembre-se que o banco deve ser criado antes da importação.
+ATENÇÃO: O CAMPO CPF DA MODELAGEM FOI ALTERADO DE TAMANHO 11 PARA 14
+O DUMP CONTEM APENAS 4 TABELAS, POIS SÃO AS PERTINENTES AO QUE FOI DESIGNADO AO ICARO E THIAGO, PORÉM AS 4 TABELAS ESTÃO DE ACORDO COM A MODELAGEM CRIADA PELO FABIO.
