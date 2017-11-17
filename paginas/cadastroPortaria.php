@@ -11,14 +11,13 @@ $perfis = $pCtrl->perfilAtivo();
 </script>
 <aside class="container-fluid">
     <div class="col-lg-8 mx-auto">
-        <h3 class="page-header">MINISTÉRIO DA EDUCAÇÃO<br/>INSTITUTO FEDERAL DE EDUCAÇÃO, CIÊNCIA E TECNOLOGIA DE SÃO PAULO</h3>
+        <h3 class="page-header">ministério da educação<br>instituto federal de educação, ciência e tecnologia de são paulo</h3>
         <form action="../intermediadoras/intermediadorPortaria.php" method="post">
             <input type="hidden" name="portaria-submit" value="Cadastrar"/>
             <!-- area de campos do form -->
-            <hr />
             <div class="row">
                 <div class="form-group col-md-12">
-                    <label for="objetivo">Objetivo:</label>
+                    <label class="label-objetivo" for="objetivo">Objetivo</label>
                     <textarea id="objetivo" class="form-control" type="text" name="objetivo" required></textarea>
                 </div>
             </div>
