@@ -2,12 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="81ffadd3-047c-4f4d-a545-be8f099a8771" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/js/js.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/css/style.css" afterPath="$PROJECT_DIR$/assets/css/style.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/paginas/cadastroAssociacao.php" afterPath="$PROJECT_DIR$/paginas/cadastroAssociacao.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/paginas/cadastroPortaria.php" afterPath="$PROJECT_DIR$/paginas/cadastroPortaria.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/paginas/header.php" afterPath="$PROJECT_DIR$/paginas/header.php" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -21,8 +16,8 @@
       <file leaf-file-name="cadastroPortaria.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/paginas/cadastroPortaria.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="397">
-              <caret line="145" column="45" lean-forward="true" selection-start-line="145" selection-start-column="30" selection-end-line="145" selection-end-column="45" />
+            <state relative-caret-position="482">
+              <caret line="157" column="8" lean-forward="true" selection-start-line="157" selection-start-column="8" selection-end-line="157" selection-end-column="8" />
               <folding />
             </state>
           </provider>
@@ -38,21 +33,56 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="cadastroAssociacao.php" pinned="false" current-in-tab="false">
+      <file leaf-file-name="cadastroAssociacao.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/paginas/cadastroAssociacao.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="5" lean-forward="true" selection-start-line="0" selection-start-column="5" selection-end-line="0" selection-end-column="5" />
+            <state relative-caret-position="482">
+              <caret line="157" column="8" lean-forward="false" selection-start-line="157" selection-start-column="8" selection-end-line="157" selection-end-column="8" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="style.css" pinned="false" current-in-tab="true">
+      <file leaf-file-name="cadastroPapel.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/paginas/cadastroPapel.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="intermediadorAssociacao.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/intermediadoras/intermediadorAssociacao.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding>
+                <marker date="1510969688782" expanded="true" signature="744:759" ph="..." />
+                <marker date="1510969688782" expanded="true" signature="882:897" ph="..." />
+                <marker date="1510969688782" expanded="true" signature="1570:1585" ph="..." />
+                <marker date="1510969688782" expanded="true" signature="1708:1723" ph="..." />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="style.css" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/assets/css/style.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="317">
+            <state relative-caret-position="-40">
               <caret line="63" column="0" lean-forward="false" selection-start-line="63" selection-start-column="0" selection-end-line="63" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="listarAssociacao.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/paginas/listarAssociacao.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="346">
+              <caret line="41" column="32" lean-forward="true" selection-start-line="41" selection-start-column="32" selection-end-line="41" selection-end-column="32" />
               <folding />
             </state>
           </provider>
@@ -92,11 +122,11 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/paginas/cadastroAssociacao.php" />
         <option value="$PROJECT_DIR$/paginas/header.php" />
         <option value="$PROJECT_DIR$/assets/js/js.js" />
-        <option value="$PROJECT_DIR$/paginas/cadastroPortaria.php" />
         <option value="$PROJECT_DIR$/assets/css/style.css" />
+        <option value="$PROJECT_DIR$/paginas/cadastroPortaria.php" />
+        <option value="$PROJECT_DIR$/paginas/cadastroAssociacao.php" />
       </list>
     </option>
   </component>
@@ -161,6 +191,11 @@
             <path>
               <item name="projeto-scrum" type="b2602c69:ProjectViewProjectNode" />
               <item name="projeto-scrum" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="intermediadoras" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="projeto-scrum" type="b2602c69:ProjectViewProjectNode" />
+              <item name="projeto-scrum" type="2a2b976b:PhpTreeStructureProvider$1" />
               <item name="paginas" type="2a2b976b:PhpTreeStructureProvider$1" />
             </path>
           </expand>
@@ -203,12 +238,12 @@
       <workItem from="1510932783815" duration="1027000" />
       <workItem from="1510946031685" duration="2274000" />
       <workItem from="1510969845957" duration="6344000" />
-      <workItem from="1511017426207" duration="5852000" />
+      <workItem from="1511017426207" duration="8808000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="15497000" />
+    <option name="totallyTimeSpent" value="18453000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1376" height="744" extended-state="6" />
@@ -316,6 +351,14 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/assets/js/js.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/paginas/header.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-102">
@@ -326,7 +369,31 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/assets/js/js.js">
+    <entry file="file://$PROJECT_DIR$/paginas/listarAssociacao.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="346">
+          <caret line="41" column="32" lean-forward="true" selection-start-line="41" selection-start-column="32" selection-end-line="41" selection-end-column="32" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/css/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-40">
+          <caret line="63" column="0" lean-forward="false" selection-start-line="63" selection-start-column="0" selection-end-line="63" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/paginas/cadastroPortaria.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="482">
+          <caret line="157" column="8" lean-forward="true" selection-start-line="157" selection-start-column="8" selection-end-line="157" selection-end-column="8" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/paginas/cadastroPapel.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
@@ -334,26 +401,23 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/paginas/cadastroPortaria.php">
+    <entry file="file://$PROJECT_DIR$/intermediadoras/intermediadorAssociacao.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="397">
-          <caret line="145" column="45" lean-forward="true" selection-start-line="145" selection-start-column="30" selection-end-line="145" selection-end-column="45" />
-          <folding />
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <marker date="1510969688782" expanded="true" signature="744:759" ph="..." />
+            <marker date="1510969688782" expanded="true" signature="882:897" ph="..." />
+            <marker date="1510969688782" expanded="true" signature="1570:1585" ph="..." />
+            <marker date="1510969688782" expanded="true" signature="1708:1723" ph="..." />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/paginas/cadastroAssociacao.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="5" lean-forward="true" selection-start-line="0" selection-start-column="5" selection-end-line="0" selection-end-column="5" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/assets/css/style.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="317">
-          <caret line="63" column="0" lean-forward="false" selection-start-line="63" selection-start-column="0" selection-end-line="63" selection-end-column="0" />
+        <state relative-caret-position="482">
+          <caret line="157" column="8" lean-forward="false" selection-start-line="157" selection-start-column="8" selection-end-line="157" selection-end-column="8" />
           <folding />
         </state>
       </provider>
