@@ -42,9 +42,9 @@ td{
 .label-objetivo,
 .label-portaria,
 .label-texto,
-.data-ini-fim,
 .label-dir-ger,
-.label-portaria-ativa{
+.label-portaria-ativa,
+.cmp-artigo2{
     margin-top: 50px;
 }
 
@@ -60,16 +60,34 @@ td{
 
 .contrato,
 .portaria-anterior,
-.label-portaria-ativa{
+.label-portaria-ativa,
+.revoga-portaria{
     cursor: pointer;
     font-weight: bolder;
 }
 
-.artigo{
+.artigo,
+.ref-portaria{
     height: 200px;
 }
 
 .select-dir{
     margin-top: -40px;
     margin-left: 110px;
+}
+
+.data-ini-fim{
+    padding-top: 50px;
+}
+
+#div-contrato,
+#div-portaria-anterior{
+    display: none;
+}
+
+.cmp-contrato,
+.cmp-empresa,
+.cmp-objeto,
+.cmp-artigo2{
+    float: left;
 }

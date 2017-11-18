@@ -11,6 +11,3 @@ require_once "header.php";
          </div>
       </form>
    </article>
-
-<?php
-require_once "footer.php";

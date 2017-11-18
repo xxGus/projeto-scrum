@@ -46,26 +46,60 @@ $perfis = $pCtrl->perfilAtivo();
             </div>
         </div>
         <div class="row">
-            <div class="form-group col-md-12 checkbox">
+            <div id="contrato" class="form-group col-md-12 checkbox"
+                 onclick="habilita_div(document.getElementById('div-contrato'), document.getElementById('chk-contrato'))">
                 <label class="contrato">
                     Essa Portaria possui contrato ?
-                    <input type="checkbox" name="contrato">
+                    <input id="chk-contrato" type="checkbox" name="contrato" ">
                 </label>
             </div>
-            <div class="form-group col-md-12 checkbox">
+            <div id="portaria-anterior" class="form-group col-md-12 checkbox"
+                 onclick="habilita_div(document.getElementById('div-portaria-anterior'), document.getElementById('chk-portaria-anterior'))">
                 <label class="portaria-anterior">
                     Essa Portaria faz referência a uma Postaria Anterior?
-                    <input type="checkbox">
+                    <input id="chk-portaria-anterior" type="checkbox" name="portaria-anterior">
                 </label>
             </div>
         </div>
         <div class="row">
             <div class="form-group col-md-12">
-                <textarea id="artigo" class="form-control artigo" type="text" name="artigo" placeholder="ex.: Art 1º"
+                <textarea id="artigo" class="form-control artigo" type="text" name="artigo" placeholder="Art 1º"
                           required></textarea>
             </div>
         </div>
-        <div class="row data-ini-fim">
+
+
+        <div id="div-contrato" class="row">
+            <div class="col-md-3 cmp-contrato">
+                <div class="font-weight-bold">
+                    Contrato Nº
+                </div>
+                <div class="">
+                    <textarea class="form-control" name="" id="" cols="30" rows="10"></textarea>
+                </div>
+            </div>
+            <div class="col-md-3 cmp-empresa">
+                <div class="font-weight-bold">
+                    Empresa
+                </div>
+                <div class="">
+                    <textarea class="form-control" name="" id="" cols="30" rows="10"></textarea>
+                </div>
+            </div>
+            <div class="col-md-6 cmp-objeto">
+                <div class="font-weight-bold">
+                    Objeto
+                </div>
+                <div class="">
+                    <textarea class="form-control" name="" id="" cols="30" rows="10"></textarea>
+                </div>
+            </div>
+            <div class="col-md-12 cmp-artigo2">
+                <textarea id="artigo-2" class="form-control artigo" type="text" name="artigo" placeholder="Art 2º" required></textarea>
+            </div>
+        </div>
+
+        <div class="col-md-12 row data-ini-fim">
             <div class="col-md-4">
                 <label class="font-weight-bold" for="inicio">Data Inicio:</label>
                 <input type="date" name="inicio">
@@ -75,8 +109,8 @@ $perfis = $pCtrl->perfilAtivo();
                 <input type="date" name="fim">
             </div>
 
-            <div class="form-group col-md-12">
-                <label class="font-weight-bold label-dir-ger" for="diretor">Diretor Geral:</label>
+            <div class="form-group col-md-12 dropdown-divider-dir">
+                <label class="font-weight-bold label-dir-ger col-md-6" for="diretor">Diretor Geral:</label>
                 <div class="col-md-6 select-dir">
                     <select class="form-control" id="diretor" name="diretor">
                         <?php //while($p = $perfis->fetch(PDO::FETCH_OBJ)): ?>
@@ -85,8 +119,8 @@ $perfis = $pCtrl->perfilAtivo();
                     </select>
                 </div>
             </div>
-
         </div>
+
         <div class="row">
             <div class="form-group col-md-12 font-weight-bold">
                 <label class="label-portaria-ativa">
@@ -95,6 +129,27 @@ $perfis = $pCtrl->perfilAtivo();
                 </label>
             </div>
         </div>
+
+        <div id="div-portaria-anterior" class="row">
+            <div class="form-group col-md-12">
+                <label class="label-portaria">Essa Portaria faz REFERÊNCIA a Portaria nº BRA.:</label>
+                <input type="text" name="numero" placeholder="número"> /
+                <input type="text" name="ano" placeholder="ano">
+            </div>
+
+            <div class="form-group col-md-12">
+                <textarea id="ref-portaria" class="form-control ref-portaria" type="text" name="ref-portaria"
+                          placeholder="Preencher aqui com as principais informções da Portaria que está se referenciando" required></textarea>
+            </div>
+
+            <div id="revoga-portaria" class="form-group col-md-12 checkbox">
+                <label class="revoga-portaria font-weight-bold">
+                    Revoga portaria de REFERÊNCIA?
+                    <input id="chk-revoga-portaria" type="checkbox" name="chk-revoga-portaria">
+                </label>
+            </div>
+        </div>
+
 
         <div class="form-group">
             <input type="submit" class="btn btn-success" name="cadastro" id="cadastro" value="Cadastrar"/>
