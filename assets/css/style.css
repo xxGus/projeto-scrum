@@ -28,12 +28,48 @@ td{
    background-color: #98FB98;
 }
 
-.page-header{
+.page-header,
+.txt-dir-geral,
+.resolve{
     text-transform: uppercase;
+}
+
+.page-header{
     text-align: center;
     font-size: 24px;
 }
 
-.label-objetivo{
+.label-objetivo,
+.label-portaria,
+.label-texto,
+.data-ini-fim,
+.label-dir-ger,
+.label-portaria-ativa{
+    margin-top: 50px;
+}
+
+.label-objetivo,
+.label-portaria{
     font-weight: bolder;
+}
+
+.label-texto,
+.resolve{
+    text-indent: 6em;
+}
+
+.contrato,
+.portaria-anterior,
+.label-portaria-ativa{
+    cursor: pointer;
+    font-weight: bolder;
+}
+
+.artigo{
+    height: 200px;
+}
+
+.select-dir{
+    margin-top: -40px;
+    margin-left: 110px;
 }
